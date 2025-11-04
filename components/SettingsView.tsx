@@ -81,7 +81,7 @@ const SettingsView: React.FC<SettingsViewProps> = ({ settings, setSettings, setC
        <div className="bg-gray-800 rounded-lg p-4">
         <h3 className="text-lg font-semibold text-white mb-2">About & Reminders</h3>
         <p className="text-sm text-gray-400">
-           DarTrak helps students stay organized by aggregating tasks. 
+           DarTrack helps students stay organized by aggregating tasks. 
            Email parsing is powered by Google's Gemini API.
         </p>
         <p className="text-sm text-gray-400 mt-2">

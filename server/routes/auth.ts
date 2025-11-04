@@ -1,4 +1,5 @@
 import { Router } from 'express';
+import { google } from 'googleapis';
 import { AuthRequest } from '../middleware/auth.js';
 import { oauth2Client, getAuthUrl, isGmailConfigured } from '../config/gmail.js';
 

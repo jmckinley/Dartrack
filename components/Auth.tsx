@@ -36,7 +36,7 @@ const Auth: React.FC = () => {
         <div className="h-full w-full bg-gray-900 flex items-center justify-center p-4">
             <div className="w-full max-w-sm text-center">
                 <Logo className="w-24 h-24 mx-auto mb-6 text-emerald-500" />
-                <h1 className="text-4xl font-bold text-white mb-2">Welcome to <span className="text-emerald-500">DarTrak</span></h1>
+                <h1 className="text-4xl font-bold text-white mb-2">Welcome to <span className="text-emerald-500">DarTrack</span></h1>
                 <p className="text-lg text-gray-400 mb-10">Your intelligent academic planner.</p>
                 
                 {error && <p className="text-red-400 bg-red-900/30 p-3 rounded-md mb-6">{error}</p>}

@@ -1,5 +1,5 @@
 {
-  "name": "DarTrak",
+  "name": "DarTrack",
   "description": "An intelligent mobile-first application for Dartmouth students to manage tasks. It automatically parses assignments from emails using the Gemini API, integrates with Canvas iCal feeds, and allows for manual task creation.",
   "requestFramePermissions": []
 }

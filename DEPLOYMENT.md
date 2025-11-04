@@ -1,10 +1,10 @@
 # Deployment Guide
 
-This guide covers deploying DarTrak to production environments.
+This guide covers deploying DarTrack to production environments.
 
 ## Architecture Overview
 
-DarTrak consists of two parts:
+DarTrack consists of two parts:
 1. **Frontend** (Vite/React) - Static site that can be deployed to any CDN
 2. **Backend** (Express/Node.js) - API server that needs a Node.js runtime
 

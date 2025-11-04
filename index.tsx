@@ -58,7 +58,7 @@ const WelcomeScreen: React.FC<{ onComplete: () => void }> = ({ onComplete }) => 
             <div className="w-full max-w-md bg-gray-800 rounded-xl shadow-lg p-8">
                 <div className="text-center">
                     <Logo className="w-24 h-24 mx-auto mb-6 text-emerald-500" />
-                    <h1 className="text-3xl font-bold text-white mb-2">Welcome to <span className="text-emerald-500">DarTrak</span></h1>
+                    <h1 className="text-3xl font-bold text-white mb-2">Welcome to <span className="text-emerald-500">DarTrack</span></h1>
                     <p className="text-lg text-gray-400 mb-8">The smartest way to organize your academic life.</p>
                     <button onClick={onComplete} className="w-full bg-indigo-600 text-white font-semibold py-3 rounded-lg hover:bg-indigo-700 transition-colors text-lg">
                         Get Started

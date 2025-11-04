@@ -83,7 +83,7 @@ const HelpView: React.FC<HelpViewProps> = ({ onNavigate }) => {
                         </div>
                     </FAQItem>
                     
-                    <FAQItem question="How do I add DarTrak to my phone's home screen?">
+                    <FAQItem question="How do I add DarTrack to my phone's home screen?">
                         <p>Adding this app to your home screen makes it feel like a native app. The steps are slightly different for iOS and Android.</p>
                         <div className="bg-gray-900/50 p-3 rounded-md">
                             <h4 className="font-semibold text-gray-200 mb-2">For iOS (Safari):</h4>

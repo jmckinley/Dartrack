@@ -8,13 +8,13 @@ I'll guide you through each step with **exact copy-paste commands**. No guessing
 
 ### 1.1 Create Project
 1. Go to: https://console.cloud.google.com/projectcreate
-2. **Project name**: `DarTrak`
+2. **Project name**: `DarTrack`
 3. Click **CREATE**
 4. Wait 30 seconds for project to be created
 
 ### 1.2 Enable Gmail API
 1. Go to: https://console.cloud.google.com/apis/library/gmail.googleapis.com
-2. Make sure "DarTrak" is selected in the top dropdown
+2. Make sure "DarTrack" is selected in the top dropdown
 3. Click **ENABLE**
 4. Wait for it to enable
 
@@ -26,7 +26,7 @@ I'll guide you through each step with **exact copy-paste commands**. No guessing
 **Fill in ONLY these fields:**
 
 ```
-App name: DarTrak
+App name: DarTrack
 User support email: [YOUR EMAIL]
 Developer contact email: [YOUR EMAIL]
 ```
@@ -51,7 +51,7 @@ Click **SAVE AND CONTINUE**
 1. Go to: https://console.cloud.google.com/apis/credentials
 2. Click **CREATE CREDENTIALS** → **OAuth client ID**
 3. Application type: **Web application**
-4. Name: `DarTrak Web`
+4. Name: `DarTrack Web`
 
 **IMPORTANT - You need your Railway URL first!**
 
@@ -63,7 +63,7 @@ Click **SAVE AND CONTINUE**
 
 1. Go to: https://railway.app/new
 2. Click **Deploy from GitHub repo**
-3. Select **kyliemckinleydemo/DarTrak**
+3. Select **kyliemckinleydemo/DarTrack**
 4. Wait for deployment (2-3 minutes)
 5. **Copy your Railway URL** - looks like: `https://dartrak-production-xxxx.up.railway.app`
 
@@ -179,7 +179,7 @@ CREATE INDEX IF NOT EXISTS idx_gmail_tokens_user_id ON gmail_tokens(user_id);
 ## Step 6: Deploy Frontend to Vercel (5 minutes)
 
 1. Go to: https://vercel.com/new
-2. Click **Import** next to kyliemckinleydemo/DarTrak
+2. Click **Import** next to kyliemckinleydemo/DarTrack
 3. **Add these environment variables:**
 
 ```
@@ -208,7 +208,7 @@ Value: [YOUR RAILWAY URL]
 
 ### Update Google Cloud Console:
 1. Go to: https://console.cloud.google.com/apis/credentials
-2. Click on "DarTrak Web" (the OAuth client you created)
+2. Click on "DarTrack Web" (the OAuth client you created)
 3. Under **Authorized JavaScript origins**, add:
    - **Your Vercel URL** (e.g., `https://dartrak-xxx.vercel.app`)
 4. Click **SAVE**

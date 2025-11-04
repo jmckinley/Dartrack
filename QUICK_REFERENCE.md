@@ -112,7 +112,7 @@ CREATE INDEX IF NOT EXISTS idx_gmail_tokens_user_id ON gmail_tokens(user_id);
 
 - [ ] Have Gemini API key
 - [ ] Have Supabase URL, Anon Key, Service Role Key
-- [ ] Created Google Cloud project "DarTrak"
+- [ ] Created Google Cloud project "DarTrack"
 - [ ] Enabled Gmail API
 - [ ] Configured OAuth consent screen
 - [ ] Added myself as test user

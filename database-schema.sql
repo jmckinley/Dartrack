@@ -1,4 +1,4 @@
--- DarTrak Database Schema
+-- DarTrack Database Schema
 -- Run this SQL in your Supabase SQL Editor to set up the database
 
 -- Tasks table

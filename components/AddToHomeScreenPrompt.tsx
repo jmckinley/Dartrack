@@ -51,7 +51,7 @@ const AddToHomeScreenPrompt: React.FC<AddToHomeScreenPromptProps> = ({ isOpen, o
             <Icon name="arrow-up-on-square" className="w-8 h-8 text-indigo-400" />
             <div>
                 <h2 className="text-xl font-bold text-white">Get Quicker Access</h2>
-                <p className="text-sm text-gray-400">Add DarTrak to your home screen.</p>
+                <p className="text-sm text-gray-400">Add DarTrack to your home screen.</p>
             </div>
         </div>
         <div className="p-6 space-y-4 text-gray-300 text-sm">

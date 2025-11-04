@@ -1,6 +1,6 @@
 # Quick Deployment Guide
 
-Follow these steps to deploy DarTrak to production.
+Follow these steps to deploy DarTrack to production.
 
 ## Step 1: Deploy Backend to Railway (5 minutes)
 
@@ -11,7 +11,7 @@ Follow these steps to deploy DarTrak to production.
 ### 1.2 Create New Project
 1. Click **"New Project"**
 2. Select **"Deploy from GitHub repo"**
-3. Choose **kyliemckinleydemo/DarTrak**
+3. Choose **kyliemckinleydemo/DarTrack**
 4. Railway will automatically detect it's a Node.js app
 
 ### 1.3 Add Environment Variables
@@ -51,7 +51,7 @@ GMAIL_REDIRECT_URI=https://your-railway-url.up.railway.app/api/auth/gmail/callba
 
 ### 2.2 Import Project
 1. Click **"Add New"** → **"Project"**
-2. Import **kyliemckinleydemo/DarTrak**
+2. Import **kyliemckinleydemo/DarTrack**
 3. Vercel will auto-detect the `vercel.json` configuration
 
 ### 2.3 Configure Build Settings

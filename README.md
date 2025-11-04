@@ -2,9 +2,9 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# DarTrak - AI-Powered Academic Task Manager
+# DarTrack - AI-Powered Academic Task Manager
 
-An intelligent mobile-first Progressive Web App for students to manage academic tasks. DarTrak uses Google's Gemini AI to automatically extract assignments and deadlines from professor emails and integrates with Canvas via iCal feeds.
+An intelligent mobile-first Progressive Web App for students to manage academic tasks. DarTrack uses Google's Gemini AI to automatically extract assignments and deadlines from professor emails and integrates with Canvas via iCal feeds.
 
 ## Features
 
@@ -190,7 +190,7 @@ dartrak/
 
 ## Architecture
 
-DarTrak uses a **Vite + Express** architecture:
+DarTrack uses a **Vite + Express** architecture:
 
 - **Frontend**: Vite dev server serves the React app with hot module replacement
 - **Backend**: Express server handles API requests, authentication, and AI processing

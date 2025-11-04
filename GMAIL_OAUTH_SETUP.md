@@ -1,10 +1,10 @@
 # Gmail OAuth Setup Guide
 
-This guide explains how to set up Gmail OAuth for DarTrak to read real emails from users' Gmail accounts.
+This guide explains how to set up Gmail OAuth for DarTrack to read real emails from users' Gmail accounts.
 
 ## Overview
 
-Gmail OAuth allows users to securely connect their Gmail account to DarTrak. The app will:
+Gmail OAuth allows users to securely connect their Gmail account to DarTrack. The app will:
 - Only request read-only access to Gmail
 - Fetch emails from the last 30 days
 - Use AI to extract academic tasks from professor emails
@@ -22,7 +22,7 @@ Gmail OAuth allows users to securely connect their Gmail account to DarTrak. The
 
 1. Go to [Google Cloud Console](https://console.cloud.google.com/)
 2. Click **"Select a project"** → **"New Project"**
-3. Name it: **"DarTrak"**
+3. Name it: **"DarTrack"**
 4. Click **"Create"**
 
 ## Step 2: Enable Gmail API
@@ -40,7 +40,7 @@ Gmail OAuth allows users to securely connect their Gmail account to DarTrak. The
 ### Fill in the form:
 
 **App information:**
-- App name: **DarTrak**
+- App name: **DarTrack**
 - User support email: **your-email@gmail.com**
 - App logo: (optional)
 
@@ -78,7 +78,7 @@ Gmail OAuth allows users to securely connect their Gmail account to DarTrak. The
 1. Go to **"APIs & Services"** → **"Credentials"**
 2. Click **"Create Credentials"** → **"OAuth client ID"**
 3. Application type: **"Web application"**
-4. Name: **"DarTrak Web"**
+4. Name: **"DarTrack Web"**
 
 **Authorized JavaScript origins:**
 - `http://localhost:5173` (for local development)
