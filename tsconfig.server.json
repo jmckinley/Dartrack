@@ -10,7 +10,12 @@
     "declaration": false,
     "declarationMap": false,
     "sourceMap": true,
-    "noEmit": false
+    "noEmit": false,
+    "allowImportingTsExtensions": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "strict": false,
+    "skipLibCheck": true
   },
   "include": [
     "server/**/*",

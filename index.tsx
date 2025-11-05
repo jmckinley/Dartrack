@@ -1,27 +1,27 @@
 
 import React, { useState, useMemo, useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
-import { useTaskManager } from '../hooks/useTaskManager';
+import { useTaskManager } from './hooks/useTaskManager';
 import { useSession, useSupabaseClient, useSessionContext, SessionContextProvider } from '@supabase/auth-helpers-react';
 import { createClient } from '@supabase/supabase-js';
-import { View, Settings } from '../types';
-import Header from '../components/Header';
-import BottomNav from '../components/BottomNav';
-import TaskList from '../components/TaskList';
-import ScheduleView from '../components/ScheduleView';
-import SettingsView from '../components/SettingsView';
-import AddTaskModal from '../components/AddTaskModal';
-import Icon from '../components/Icon';
-import InboxView from '../components/InboxView';
-import SyncPrompt from '../components/SyncPrompt';
-import Onboarding from '../components/Onboarding';
-import HelpView from '../components/HelpView';
-import CalendarView from '../components/CalendarView';
-import DashboardView from '../components/GroupsView';
-import AddToHomeScreenPrompt from '../components/AddToHomeScreenPrompt';
-import Auth from '../components/Auth';
-import Loader from '../components/Loader';
-import Logo from '../components/Logo';
+import { View, Settings } from './types';
+import Header from './components/Header';
+import BottomNav from './components/BottomNav';
+import TaskList from './components/TaskList';
+import ScheduleView from './components/ScheduleView';
+import SettingsView from './components/SettingsView';
+import AddTaskModal from './components/AddTaskModal';
+import Icon from './components/Icon';
+import InboxView from './components/InboxView';
+import SyncPrompt from './components/SyncPrompt';
+import Onboarding from './components/Onboarding';
+import HelpView from './components/HelpView';
+import CalendarView from './components/CalendarView';
+import DashboardView from './components/GroupsView';
+import AddToHomeScreenPrompt from './components/AddToHomeScreenPrompt';
+import Auth from './components/Auth';
+import Loader from './components/Loader';
+import Logo from './components/Logo';
 
 const useLocalStorage = <T,>(key: string, initialValue: T): [T, (value: T | ((val: T) => T)) => void] => {
   const [storedValue, setStoredValue] = useState<T>(() => {

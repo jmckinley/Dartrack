@@ -7,16 +7,19 @@
     "dev": "concurrently \"npm run dev:client\" \"npm run dev:server\"",
     "dev:client": "vite",
     "dev:server": "tsx watch server/index.ts",
-    "build": "npm run build:client && npm run build:server",
+    "build": "npm run build:client",
     "build:client": "vite build",
-    "build:server": "tsc -p tsconfig.server.json",
+    "build:server": "echo 'Server runs directly from TypeScript with tsx'",
     "preview": "vite preview",
-    "start": "node dist/server/index.js"
+    "start": "tsx server/index.ts"
   },
   "dependencies": {
     "@google/genai": "^1.27.0",
     "@supabase/auth-helpers-react": "^0.5.0",
     "@supabase/supabase-js": "^2.78.0",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.14.0",
     "axios": "^1.7.9",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
@@ -24,16 +27,13 @@
     "googleapis": "^144.0.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "swr": "^2.3.6"
+    "swr": "^2.3.6",
+    "tsx": "^4.19.2",
+    "typescript": "~5.8.2"
   },
   "devDependencies": {
-    "@types/cors": "^2.8.17",
-    "@types/express": "^5.0.0",
-    "@types/node": "^22.14.0",
     "@vitejs/plugin-react": "^5.0.0",
     "concurrently": "^9.1.2",
-    "tsx": "^4.19.2",
-    "typescript": "~5.8.2",
     "vite": "^6.2.0"
   }
 }
